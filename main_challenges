@@ -1,0 +1,6 @@
+public class KitchenHelper {
+    public static double calculateIngredientQuantity(int servings, double originalQuantity)
+    {
+        double adjustedQuantity = originalQuantity * servings;
+        return adjustedQuantity;
+    }
