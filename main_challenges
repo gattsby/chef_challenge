@@ -1,6 +1,58 @@
-public class KitchenHelper {
-    public static double calculateIngredientQuantity(int servings, double originalQuantity)
-    {
+```java
+//challenge 1
+ppublic class KitchenHelper {
+
+    public static double calculateIngredientQuantity(int servings, double originalQuantity) {
         double adjustedQuantity = originalQuantity * servings;
         return adjustedQuantity;
     }
+
+    public static void main(String[] args) {
+        double newQuantity = calculateIngredientQuantity(4, 2.5);
+        System.out.println("The adjusted ingredient quantity is: " + newQuantity);
+    }
+}
+
+//challenge 2
+public class KitchenHelper {
+    public static void spiceUpDish(int spiceLevel) {
+
+    switch (spiceLevel) {
+    case 1:
+    System.out.println("You can use salt and pepper.");
+    break;
+    case 2:
+    System.out.println("You can use some paprika and cumin.");
+    break;
+    case 3:
+    System.out.println("You can use some chili powder and garlic powder.");
+    break;
+    case 4:
+    System.out.println("You can add cayenne and curry powder.");
+    break;
+    case 5:
+    System.out.println("You can add some ghost pepper.");
+    break;
+    default:
+    System.out.println("Invalid spice level. Please enter a value between 1 and 5.");
+    break;
+        }
+    }
+    public static void main(String[] args) {        
+        spiceUpDish(4);
+    }
+}
+
+//challenge 3
+mine
+public class KitchenHelper {
+    public static void greetGuest(String name, String timeOfDay) {
+
+        System.out.println("Hello " + name + ", Good " + timeofDay + "!");
+        }
+
+    public static void main(String[] args) {
+        greetGuest("Bob", "Afternoon");
+    }
+}
+```
